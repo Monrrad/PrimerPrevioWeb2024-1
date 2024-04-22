@@ -14,7 +14,7 @@ async function handleLogin(event) {
         window.location.href = '../html/listado.html'; 
     } else {
         document.getElementById('error-message').style.display = 'block';
-        document.getElementById('student-code').value = '1151803';
-        document.getElementById('password').value = '5wE2qM';
+        document.getElementById('student-code').value = '';
+        document.getElementById('password').value = '';
     }
 }

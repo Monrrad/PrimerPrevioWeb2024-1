@@ -29,3 +29,15 @@ button {
     border-radius: 20px;
     cursor: pointer;
 }
+table{
+width: 100%;
+border-collapse: collapse;
+}
+
+thead{
+    background-color: #cfcfcf;
+}
+
+thead th{
+    border-bottom: 2px solid #000;
+}
