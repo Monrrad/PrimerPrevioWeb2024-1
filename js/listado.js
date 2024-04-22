@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const user = JSON.parse(localStorage.getItem('user'));
     if (!user) {
-        window.location.href = '../html/index.html'; 
+        window.location.href = 'index.html'; 
         return;
     }
 
@@ -28,6 +28,6 @@ function calculateFinalGrade(p1, p2, p3, ef) {
 
 function logout() {
     localStorage.removeItem('user');
-    window.location.href = '../html/index.html'; 
+    window.location.href = 'index.html'; 
 
 }
